@@ -1,0 +1,1 @@
+{"9gag":{"link":"(?:www\\.)?(?:9gag\\.com\\/gag\\/([\\w\\d-]+))","url":"img-9gag-fun.9cache.com/photo/$1_700b.jpg"}}
