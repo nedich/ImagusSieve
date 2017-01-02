@@ -1,1 +1,1 @@
-{"9gag":{"link":"(?:www\\.)?(?:9gag\\.com\\/gag\\/([\\w\\d-]+))","url":"img-9gag-fun.9cache.com/photo/$1_700b.jpg"}}
+{"9gag":{"link":"(?:9gag\\.com\\/gag\\/([\\w\\d-]+))","ci":1,"url":"http://9gag.com/gag/$1","res":":\nconsole.log($[1]);\n//img-9gag-fun.9cache.com/photo/$1_700b.jpg\n//img-9gag-fun.9cache.com/photo/$1_460sv.mp4\nvar i = $._.indexOf($[1]+\"_460sv.mp4\")\n//console.log(\"i:\"+i)\nif(i!=-1)\n    return \"http://img-9gag-fun.9cache.com/photo/\"+$[1]+\"_460sv.mp4\";\nelse\n    return \"http://img-9gag-fun.9cache.com/photo/\"+$[1]+\"_700b.jpg\";"}}
