@@ -1,0 +1,1 @@
+{"zamundapreviewpic":{"link":"zamunda\\.net\\/previewimg\\.php\\?id=\\d+&img=.*","res":":\nvar re = /<a href=\"(http:\\/\\/img\\.zamunda\\.net\\/bitbucket\\/\\d+_[\\d\\w]+\\.png)\" target=_blank>/\n\nvar m = re.exec($._)\n\nif(!m) return;\n\nconsole.log(m)\n\nreturn [m[1]];"}}
